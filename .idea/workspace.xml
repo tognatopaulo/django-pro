@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="938c8f7e-c486-41d3-bdc3-3e41e4c15de4" name="Default Changelist" comment="" />
+    <list default="true" id="938c8f7e-c486-41d3-bdc3-3e41e4c15de4" name="Default Changelist" comment="Instalada a versao minima de uma aplicação django">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +50,53 @@
       <option name="presentableId" value="Default" />
       <updated>1620417151307</updated>
     </task>
+    <task id="LOCAL-00001" summary="Instalada a versao minima de uma aplicação django">
+      <created>1620417788268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620417788268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Instalada a versao minima de uma aplicação django">
+      <created>1620417870922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620417870922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Instalada a versao minima de uma aplicação django">
+      <created>1620417954993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620417954993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Instalada a versao minima de uma aplicação django" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalada a versao minima de uma aplicação django" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620418417525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1620418417525" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1620417958108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620417958108" />
   </component>
 </project>
