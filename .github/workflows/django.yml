@@ -1,0 +1,26 @@
+name: Aplicação Djano
+
+on: [pull_request]
+
+jobs:
+  build:
+    env:
+      PIPENV_NO_INHERIT: 1
+      PIPENV_IGNORE_VIRTUALENVS: 1
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Instalar dependencias
+        run: |
+          pip install pipenv
+          pipenv sync --dev
+      - name: Rodar testes automáticos
+        run: |
+          pipenv run pytest webdev
+
