@@ -1,6 +1,6 @@
 name: Aplicação Django
 
-on: [pull request]
+on: [pull_request]
 
 jobs:
   build:
@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up python 3.8
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-      - name: Instalar Dependências
-        run: |
-          pip install pipenv
-          pipenv sync --dev
-      - name: Rodar os testes automáticos
-        run: |
-          pipenv run pytest webdev
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Instalar Dependências
+      run: |
+        pip install pipenv
+        pipenv sync --dev
+    - name: Rodar Testes Automáticos
+      run: |
+        pipenv run pytest webdev
