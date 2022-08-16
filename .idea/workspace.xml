@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Criar app e formulário de lista de tarefas&#10;&#10;Close #4">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
-    </list>
+    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Criar app e formulário de lista de tarefas&#10;&#10;Close #4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660648842136</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Criar app e formulário de lista de tarefas&#10;&#10;Close #4">
+      <created>1660648936081</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660648936081</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Criar app e formulário de lista de tarefas&#10;&#10;Close #4">
+      <created>1660649055139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660649055139</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
