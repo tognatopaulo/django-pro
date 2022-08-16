@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Criar app e formulário de lista de tarefas&#10;Close #4" />
+    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Criar app e formulário de lista de tarefas&#10;&#10;Close #4">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660647386160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Criar app e formulário de lista de tarefas&#10;&#10;Close #4">
+      <created>1660648842136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660648842136</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +255,7 @@
     <MESSAGE value="Instalado servidor de integração continua&#10;&#10;close #1" />
     <MESSAGE value="Consertando bug python" />
     <MESSAGE value="Criar app e formulário de lista de tarefas&#10;Close #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar app e formulário de lista de tarefas&#10;Close #4" />
+    <MESSAGE value="Criar app e formulário de lista de tarefas&#10;&#10;Close #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar app e formulário de lista de tarefas&#10;&#10;Close #4" />
   </component>
 </project>
