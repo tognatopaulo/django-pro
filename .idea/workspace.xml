@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Instalado servidor de integração continua&#10;&#10;close #1">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
+    <list default="true" id="c7547418-db33-4c8f-acf1-35cd75e9ac5d" name="Changes" comment="Consertando bug python">
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/templates/tarefas/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/tarefas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -19,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,11 +52,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webdev/tarefas/tests" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_home.test_home_status_code">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uiutuuz\Desktop\django\django-pro\webdev\tarefas\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_tarefas_post.py">
     <configuration name="pytest for test_home.test_home_status_code" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="django-pro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,26 +81,77 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_home.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_tarefas_get.test_status_code" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="django-pro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/webdev/test_home.py&quot;" />
+      <option name="_new_target" value="&quot;test_tarefas_get.test_status_code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_tarefas_post.test_pagina_com_dados_invalidos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_tarefas_post.test_pagina_com_dados_invalidos&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_tarefas_get.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_get.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_tarefas_post.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="django-pro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webdev/tarefas/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/webdev/tarefas/tests/test_tarefas_post.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_tarefas_post.py" />
+        <item itemvalue="Python tests.pytest for test_tarefas_post.test_pagina_com_dados_invalidos" />
+        <item itemvalue="Python tests.pytest in test_tarefas_get.py" />
+        <item itemvalue="Python tests.pytest for test_tarefas_get.test_status_code" />
         <item itemvalue="Python tests.pytest for test_home.test_home_status_code" />
-        <item itemvalue="Python tests.pytest in test_home.py" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +213,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659986231596</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Instalado servidor de integração continua&#10;&#10;close #1">
+      <created>1659986395669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659986395669</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Instalado servidor de integração continua&#10;&#10;close #1">
+      <created>1659986603624</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659986603624</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Consertando bug python">
+      <created>1659986692950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659986692950</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,10 +249,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Versao de App minima" />
     <MESSAGE value="Criado arquivo Procfile para rodar aplicação com gunicorn" />
     <MESSAGE value="consertado bug de allowed hosts" />
     <MESSAGE value="Instalado servidor de integração continua&#10;&#10;close #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalado servidor de integração continua&#10;&#10;close #1" />
+    <MESSAGE value="Consertando bug python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consertando bug python" />
   </component>
 </project>
